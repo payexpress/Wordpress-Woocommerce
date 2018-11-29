@@ -270,7 +270,7 @@ function woocommerce_payexpresse_init() {
                 if(array_key_exists('error', $jsonResponse))
                     wc_add_notice($jsonResponse['error'][0], "error");
                 else
-                    if(array_key_exists('success') && $jsonResponse['success']===-1 )
+                    if(array_key_exists('success',$jsonResponse) && $jsonResponse['success']===-1 )
                         wc_add_notice($jsonResponse['message'], "error");
 
                     else
