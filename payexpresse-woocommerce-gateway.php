@@ -1,5 +1,4 @@
 ﻿<?php
-
 /*
    Plugin Name: Passerelle de paiement PAYEXPRESSE
    Description: PayExpresse propose une plateforme sécurisée de paiement en ligne pour faciliter les transactions entre les professionnels et leurs clients.
@@ -7,7 +6,6 @@
    Author: PayExpresse
    Author URI: https://payexpresse.com
  */
-
 if (!defined('ABSPATH')) {
     exit;
 }
